@@ -1,0 +1,20 @@
+# AutoMod 依赖包列表
+
+# 核心依赖
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyautogui>=0.9.54
+requests>=2.31.0
+
+# OCR 引擎选择（二选一或都选）
+pytesseract>=0.3.10  # Tesseract OCR 引擎
+# paddleocr>=2.6.1  # PaddleOCR 引擎（如需使用，取消注释）
+
+# 可选依赖
+Pillow>=9.5.0  # 图像处理
+pyperclip>=1.8.2  # 剪贴板操作
+
+# 开发依赖（可选）
+pytest>=7.3.1
+black>=23.3.0
+flake8>=6.0.0
